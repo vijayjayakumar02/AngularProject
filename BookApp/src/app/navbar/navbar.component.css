@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+.navbar{
+  background: linear-gradient(-90deg, lightblue, black);
+  margin: 0;
+}
+.container-fluid{
+  margin: 10px;
+}
+.navbar-nav{
+  font-size: 20px;
+}
+.nav-link{
+  margin: 10px;
+  color: white;
+}
+.nav-link:hover{
+  font-family: Montserrat, sans-serif;
+  font-size: 25px;
+  transition: all 0.3s ease;
+}
+.navbar-brand{
+  color: white;
+  font-family: Montserrat, sans-serif;
+  font-size: 25px;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+.navbar-brand:hover{
+  color: white;
+  font-family: Montserrat, sans-serif;
+  font-size: 25px;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+#nav-link1{
+  color: white;
+}
