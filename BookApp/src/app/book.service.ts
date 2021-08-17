@@ -46,7 +46,7 @@ export class BookService {
   }
 
   onBookList(){
-    return this.bookList;
+    return this.bookList; 
   }
 
   onBookUpdate(id: number,url: any, description: string, price: number)

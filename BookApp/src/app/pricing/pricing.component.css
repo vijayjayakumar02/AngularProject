@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 .container{
   margin-top: -70px;
+}
+#head1{
+  margin-top: 55px;
+  font-family: Montserrat, sans-serif;
+  color: black;
+  letter-spacing: 2px;
 }
 .btn{
   background: linear-gradient(90deg, rgb(34, 49, 54), black);

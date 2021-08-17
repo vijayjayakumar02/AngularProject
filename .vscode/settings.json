@@ -1,7 +1,12 @@
 {
     "cSpell.ignoreWords": [
         "bookservice",
+        "countryid",
+        "fname",
         "inputname",
-        "onaccountservice"
+        "lname",
+        "minlength",
+        "onaccountservice",
+        "selectservice"
     ]
 }
