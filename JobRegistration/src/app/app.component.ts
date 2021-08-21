@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'JobRegistration';
+  isChecked = true;
+
+  onChange($event:any){
+    console.log($event);
+  }
 }
