@@ -1,0 +1,32 @@
+mat-toolbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+ul li {
+    list-style: none;
+}
+button {
+    outline: none;
+    border: 0;
+    color: white;
+    text-align: center;
+    margin-left: -15px;
+    background: transparent;
+    cursor: pointer;
+}
+button:hover{
+    color: black;
+    background-color: rgb(216, 211, 211);
+}
+mat-toolbar {
+    background: linear-gradient(90deg, rgb(34, 49, 54), black);
+    color: white;
+}
+::ng-deep .mat-menu-content {
+    width: 160px;
+}
+#head1{
+    margin-left: 5px;
+    text-align: center;
+}

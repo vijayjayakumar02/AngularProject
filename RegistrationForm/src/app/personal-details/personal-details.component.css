@@ -1,0 +1,16 @@
+form{
+    margin-left: 100px;
+}
+.btn{
+    color: white;
+    background: linear-gradient(90deg, rgb(34, 49, 54), black);
+    border: none;
+    font-size: 18px;
+    font-weight: 800;
+    transition: all 0.3s ease;
+}
+.btn:hover{
+    opacity: 0.9;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+  }

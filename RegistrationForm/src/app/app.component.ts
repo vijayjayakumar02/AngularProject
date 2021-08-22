@@ -6,10 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'JobRegistration';
-  isChecked = true;
+  title = 'RegistrationForm';
+  sideBarOpen = true;
 
-  onChange($event:any){
-    console.log($event);
+  sideBarToggler() {
+    this.sideBarOpen = !this.sideBarOpen;
   }
 }
